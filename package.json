@@ -1,0 +1,26 @@
+{
+  "name": "nexus-gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --transpileOnly --respawn ./src",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "graphql-yoga": "^1.17.4",
+    "mssql": "^4.3.1",
+    "mysql": "^2.14.1",
+    "nexus": "^0.9.9",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "ts-node": "^8.0.2",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "2.5.2"
+  }
+}
